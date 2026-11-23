@@ -1,5 +1,6 @@
 [
   {"sku":"P001","name":"Pen","price":3.0},
   {"sku":"P002","name":"Notebook","price":4.75},
-  {"sku":"P003","name":"Eraser","price":1.0}
+  {"sku":"P003","name":"Eraser","price":1.0},
+  {"sku":"P004","name":"Ruler","price":2.0}
 ]
