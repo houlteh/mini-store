@@ -1,0 +1,14 @@
+name: Validate JSON
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Check products.json is valid JSON
+        run: python3 -m json.tool products.json > /dev/null
